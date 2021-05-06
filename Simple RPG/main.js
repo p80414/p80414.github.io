@@ -1,6 +1,7 @@
 let mapArray, ctx, currentImgMain;
 let imgMountain, imgMain, imgEnemy;
 const gridLength = 200;
+$("#talkBox").text("測試");
 $(function(){
     mapArray = [
         [0,1,1],
