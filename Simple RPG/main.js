@@ -10,7 +10,7 @@ $(function(){
     ctx = $("#myCanvas")[0].getContext("2d"); 
 
     imgMain = new Image();
-    imgMain.src = "https://github.com/p80414/p80414.github.io/tree/master/Simple%20RPG/images/spriteSheet.png";
+    imgMain.src = "/images/spriteSheet.png";
     currentImgMain ={
         "x":0,
         "y":0
@@ -22,7 +22,7 @@ $(function(){
         ctx.drawImage(imgMain,0,0,80,130,currentImgMain.x, currentImgMain.y, gridLength,gridLength);
     }
     imgMountain = new Image();
-    imgMountain.src = "https://github.com/p80414/p80414.github.io/tree/master/Simple%20RPG/images/material.png";
+    imgMountain.src = "/master/Simple%20RPG/images/material.png";
     imgEnemy = new Image();
     imgEnemy.src = "images/Enemy.png";
     imgMountain.onload = function(){
